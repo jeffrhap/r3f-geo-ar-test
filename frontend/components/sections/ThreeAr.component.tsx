@@ -3,7 +3,7 @@ import { useFrame, useThree } from '@react-three/fiber';
 import * as THREE from 'three';
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import * as THREEx from './../../node_modules/@ar-js-org/ar.js/three.js/build/ar-threex-location-only.js';
+import * as THREEx from '@ar-js-org/ar.js/three.js/build/ar-threex-location-only';
 
 const box = new THREE.BoxGeometry(2, 2, 2);
 const cube = new THREE.Mesh(box, new THREE.MeshBasicMaterial({ color: 0xff0000 }));
