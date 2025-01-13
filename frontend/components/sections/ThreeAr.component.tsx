@@ -1,7 +1,8 @@
 import { useFrame, useThree } from '@react-three/fiber';
 
 import * as THREE from 'three';
-import * as THREEx from './../../node_modules/@ar-js-org/ar.js/three.js/build/ar-threex-location-only.js'
+// @ts-ignore
+import * as THREEx from './../../node_modules/@ar-js-org/ar.js/three.js/build/ar-threex-location-only.js';
 
 const box = new THREE.BoxGeometry(2, 2, 2);
 const cube = new THREE.Mesh(box, new THREE.MeshBasicMaterial({ color: 0xff0000 }));
