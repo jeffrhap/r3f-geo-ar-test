@@ -19,6 +19,7 @@ const ThreeAr = () => {
   // https://ar-js-org.github.io/AR.js-Docs/location-based/#threejs
   // https://github.com/AR-js-org/AR.js/pull/188/files#diff-65b7c8dc378124ae83133162ac9bc4b7386c5218b53d49a67c303ec1abca2659
   // IOS??? https://github.com/AR-js-org/AR.js/issues/347
+  // Logic: https://github.com/AR-js-org/AR.js/tree/master/three.js/src/location-based/js
 
   arjs.startGps();
   // arjs.fakeGps(-0.72, 51.05);
