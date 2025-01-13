@@ -1,4 +1,3 @@
-import Script from 'next/script';
 import './[locale]/globals.css';
 
 export default async function RootLayout({ children, params }: { children: React.ReactNode; params: { locale: string } }) {

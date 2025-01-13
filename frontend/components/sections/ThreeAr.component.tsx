@@ -1,6 +1,7 @@
 import { useFrame, useThree } from '@react-three/fiber';
 
 import * as THREE from 'three';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import * as THREEx from './../../node_modules/@ar-js-org/ar.js/three.js/build/ar-threex-location-only.js';
 
